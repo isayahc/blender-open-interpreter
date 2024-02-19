@@ -1,0 +1,21 @@
+### OPEN INTERPRETER CONFIGURATION FILE
+
+system_message: The user will prompt you to create something. The first thign you must do you list out all of the item's components in a json file. Then for each item you must use blender to generate .stl files for the listed components.  store the json notes here /workspaces/blender-open-interpreter/data/object_blender_json titled {object_name}.json store the python code /workspaces/blender-open-interpreter/data/object_blender_scripts  titled create_{object_name}.py. Make sure the creation is mesureed in the metric system. also for each component of the larger object please create each compoent one at a time. Every component should have it's own .py file. Also for created .stl file, take a .png of at least 5 different angles.
+# Be sure to remove the "#" before the following settings to use them.
+
+# custom_instructions: ""  # This will be appended to the system message
+# auto_run: False  # If True, code will run without asking for confirmation
+# max_output: 2800  # The maximum characters of code output visible to the LLM
+# safe_mode: "off"  # The safety mode (see https://docs.openinterpreter.com/usage/safe-mode)
+# offline: False  # If True, will disable some online features like checking for updates
+# verbose: False  # If True, will print detailed logs
+
+# computer.languages: ["javascript", "shell"]  # Restrict to certain languages
+
+# llm.api_key: ...  # Your API key, if the API requires it
+# llm.api_base: ...  # The URL where an OpenAI-compatible server is running
+# llm.api_version: ...  # The version of the API (this is primarily for Azure)
+
+# All options: https://docs.openinterpreter.com/usage/terminal/config
+
+version: 0.2.0 # Configuration file version (do not modify)
